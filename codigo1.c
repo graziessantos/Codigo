@@ -6,7 +6,7 @@ int main (){
 
     float A, B, C, delta, R1, R2;
 
-    scanf("%f %f", &A, &B, &C);
+    scanf("%f %f %f", &A, &B, &C);
 
     delta = (pow(B,2)) - 4*A*C;
     R1 = (-B + sqrt(delta))/(2*A);
